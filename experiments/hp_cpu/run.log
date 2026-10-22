@@ -1,0 +1,81 @@
+=== experiments/configs/hp_cpu/act_gelu.json Thu Oct 22 03:02:45 PM UTC 2026 ===
+/home2/home/chakilam_sai/acadss/dl/glasses-scratch/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Device: cpu | params: 11,177,538 | train 1600 | val 400 | act_gelu
+Config: image_size=96 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=10 anneal=True ema=False
+Epoch   1/10 | train loss 0.6396 acc 0.6302 f1 0.6243 | val loss 0.8762 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 4.7s
+Epoch   2/10 | train loss 0.4088 acc 0.8613 f1 0.8554 | val loss 2.2549 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 4.4s
+Epoch   3/10 | train loss 0.3090 acc 0.9316 f1 0.9305 | val loss 1.3666 acc 0.5100 f1 0.0755 | ema acc nan | lr 9.62e-04 | 3.0s
+Epoch   4/10 | train loss 0.2859 acc 0.9434 f1 0.9436 | val loss 0.8634 acc 0.5400 f1 0.1560 | ema acc nan | lr 8.55e-04 | 3.0s
+Epoch   5/10 | train loss 0.2790 acc 0.9440 f1 0.9446 | val loss 0.3443 acc 0.9200 f1 0.9149 | ema acc nan | lr 6.94e-04 | 3.0s
+Epoch   6/10 | train loss 0.2551 acc 0.9629 f1 0.9624 | val loss 0.2613 acc 0.9600 f1 0.9606 | ema acc nan | lr 5.05e-04 | 3.1s
+Epoch   7/10 | train loss 0.2340 acc 0.9772 f1 0.9771 | val loss 0.2235 acc 0.9875 f1 0.9875 | ema acc nan | lr 3.16e-04 | 2.9s
+Epoch   8/10 | train loss 0.2452 acc 0.9668 f1 0.9665 | val loss 0.2570 acc 0.9625 f1 0.9610 | ema acc nan | lr 1.55e-04 | 3.0s
+Epoch   9/10 | train loss 0.2248 acc 0.9798 f1 0.9798 | val loss 0.2180 acc 0.9900 f1 0.9899 | ema acc nan | lr 4.77e-05 | 2.9s
+Epoch  10/10 | train loss 0.2192 acc 0.9863 f1 0.9863 | val loss 0.2189 acc 0.9900 f1 0.9899 | ema acc nan | lr 1.00e-05 | 2.9s
+Done. Best val acc 0.9900 at epoch 9 (raw)
+=== experiments/configs/hp_cpu/act_relu.json Thu Oct 22 03:03:26 PM UTC 2026 ===
+/home2/home/chakilam_sai/acadss/dl/glasses-scratch/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Device: cpu | params: 11,177,538 | train 1600 | val 400 | act_relu
+Config: image_size=96 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=10 anneal=True ema=False
+Epoch   1/10 | train loss 0.6426 acc 0.5898 f1 0.5703 | val loss 0.7723 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 3.8s
+Epoch   2/10 | train loss 0.4190 acc 0.8398 f1 0.8301 | val loss 0.7915 acc 0.5000 f1 0.6063 | ema acc nan | lr 1.00e-03 | 3.6s
+Epoch   3/10 | train loss 0.3245 acc 0.9160 f1 0.9147 | val loss 1.5226 acc 0.5025 f1 0.0197 | ema acc nan | lr 9.62e-04 | 3.0s
+Terminated
+FAILED experiments/configs/hp_cpu/act_relu.json
+=== experiments/configs/hp_cpu/act_silu.json Thu Oct 22 03:03:41 PM UTC 2026 ===
+/home2/home/chakilam_sai/acadss/dl/glasses-scratch/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Device: cpu | params: 11,177,538 | train 1600 | val 400 | act_silu
+Config: image_size=96 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=10 anneal=True ema=False
+Epoch   1/10 | train loss 0.6709 acc 0.5938 f1 0.5801 | val loss 0.7817 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 4.4s
+Epoch   2/10 | train loss 0.4067 acc 0.8600 f1 0.8512 | val loss 0.8389 acc 0.5025 f1 0.1156 | ema acc nan | lr 1.00e-03 | 4.1s
+Epoch   3/10 | train loss 0.3087 acc 0.9258 f1 0.9250 | val loss 2.1774 acc 0.5000 f1 0.0000 | ema acc nan | lr 9.62e-04 | 2.9s
+Epoch   4/10 | train loss 0.2783 acc 0.9492 f1 0.9485 | val loss 1.2049 acc 0.5450 f1 0.1651 | ema acc nan | lr 8.55e-04 | 3.1s
+Epoch   5/10 | train loss 0.2638 acc 0.9551 f1 0.9548 | val loss 0.2676 acc 0.9675 f1 0.9669 | ema acc nan | lr 6.94e-04 | 3.0s
+Epoch   6/10 | train loss 0.2476 acc 0.9635 f1 0.9630 | val loss 0.2565 acc 0.9675 f1 0.9664 | ema acc nan | lr 5.05e-04 | 3.0s
+Epoch   7/10 | train loss 0.2420 acc 0.9674 f1 0.9673 | val loss 0.2434 acc 0.9750 f1 0.9744 | ema acc nan | lr 3.16e-04 | 3.0s
+Epoch   8/10 | train loss 0.2426 acc 0.9707 f1 0.9704 | val loss 0.2803 acc 0.9525 f1 0.9501 | ema acc nan | lr 1.55e-04 | 3.2s
+Epoch   9/10 | train loss 0.2300 acc 0.9772 f1 0.9771 | val loss 0.2311 acc 0.9825 f1 0.9825 | ema acc nan | lr 4.77e-05 | 2.9s
+Epoch  10/10 | train loss 0.2214 acc 0.9844 f1 0.9844 | val loss 0.2246 acc 0.9850 f1 0.9848 | ema acc nan | lr 1.00e-05 | 2.8s
+Done. Best val acc 0.9850 at epoch 10 (raw)
+=== experiments/configs/hp_cpu/bs_128.json Thu Oct 22 03:04:21 PM UTC 2026 ===
+/home2/home/chakilam_sai/acadss/dl/glasses-scratch/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Device: cpu | params: 11,177,538 | train 1600 | val 400 | bs_128
+Config: image_size=96 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=10 anneal=True ema=False
+Epoch   1/10 | train loss 0.6426 acc 0.5898 f1 0.5703 | val loss 0.7723 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 4.4s
+Epoch   2/10 | train loss 0.4190 acc 0.8398 f1 0.8301 | val loss 0.7915 acc 0.5000 f1 0.6063 | ema acc nan | lr 1.00e-03 | 3.9s
+Epoch   3/10 | train loss 0.3245 acc 0.9160 f1 0.9147 | val loss 1.5226 acc 0.5025 f1 0.0197 | ema acc nan | lr 9.62e-04 | 3.0s
+Epoch   4/10 | train loss 0.2904 acc 0.9395 f1 0.9400 | val loss 1.2442 acc 0.5225 f1 0.0861 | ema acc nan | lr 8.55e-04 | 3.3s
+Epoch   5/10 | train loss 0.2642 acc 0.9551 f1 0.9549 | val loss 0.6522 acc 0.7750 f1 0.7097 | ema acc nan | lr 6.94e-04 | 2.9s
+Epoch   6/10 | train loss 0.2644 acc 0.9544 f1 0.9542 | val loss 0.3171 acc 0.9250 f1 0.9198 | ema acc nan | lr 5.05e-04 | 3.1s
+Epoch   7/10 | train loss 0.2413 acc 0.9727 f1 0.9724 | val loss 0.2313 acc 0.9875 f1 0.9874 | ema acc nan | lr 3.16e-04 | 3.1s
+Epoch   8/10 | train loss 0.2466 acc 0.9688 f1 0.9685 | val loss 0.2427 acc 0.9725 f1 0.9722 | ema acc nan | lr 1.55e-04 | 2.9s
+Epoch   9/10 | train loss 0.2322 acc 0.9759 f1 0.9760 | val loss 0.3204 acc 0.9325 f1 0.9276 | ema acc nan | lr 4.77e-05 | 3.3s
+Epoch  10/10 | train loss 0.2311 acc 0.9766 f1 0.9765 | val loss 0.2395 acc 0.9800 f1 0.9796 | ema acc nan | lr 1.00e-05 | 3.2s
+Done. Best val acc 0.9875 at epoch 7 (raw)
+=== experiments/configs/hp_cpu/bs_256.json Thu Oct 22 03:05:02 PM UTC 2026 ===
+/home2/home/chakilam_sai/acadss/dl/glasses-scratch/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Device: cpu | params: 11,177,538 | train 1600 | val 400 | bs_256
+Config: image_size=96 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=256 epochs=10 anneal=True ema=False
+Epoch   1/10 | train loss 0.6671 acc 0.5697 f1 0.5671 | val loss 0.7114 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 6.0s
+Epoch   2/10 | train loss 0.5399 acc 0.7422 f1 0.7203 | val loss 0.8308 acc 0.5000 f1 0.0000 | ema acc nan | lr 1.00e-03 | 4.3s
+Epoch   3/10 | train loss 0.3620 acc 0.8939 f1 0.8918 | val loss 1.3880 acc 0.5000 f1 0.6667 | ema acc nan | lr 9.62e-04 | 3.7s
+Epoch   4/10 | train loss 0.3207 acc 0.9219 f1 0.9212 | val loss 0.7422 acc 0.5125 f1 0.6655 | ema acc nan | lr 8.55e-04 | 4.0s
+Epoch   5/10 | train loss 0.3051 acc 0.9297 f1 0.9285 | val loss 0.7596 acc 0.4350 f1 0.4205 | ema acc nan | lr 6.94e-04 | 3.9s
+Epoch   6/10 | train loss 0.2703 acc 0.9525 f1 0.9513 | val loss 1.3269 acc 0.5000 f1 0.0000 | ema acc nan | lr 5.05e-04 | 4.2s
+Epoch   7/10 | train loss 0.2587 acc 0.9616 f1 0.9616 | val loss 0.9997 acc 0.5350 f1 0.1308 | ema acc nan | lr 3.16e-04 | 4.0s
+Epoch   8/10 | train loss 0.2433 acc 0.9688 f1 0.9683 | val loss 0.5209 acc 0.7900 f1 0.7342 | ema acc nan | lr 1.55e-04 | 3.8s
+Epoch   9/10 | train loss 0.2505 acc 0.9629 f1 0.9626 | val loss 0.3952 acc 0.8850 f1 0.8701 | ema acc nan | lr 4.77e-05 | 3.6s
+Epoch  10/10 | train loss 0.2362 acc 0.9720 f1 0.9719 | val loss 0.2798 acc 0.9500 f1 0.9474 | ema acc nan | lr 1.00e-05 | 3.5s
+Done. Best val acc 0.9500 at epoch 10 (raw)
+=== experiments/configs/hp_cpu/bs_32.json Thu Oct 22 03:05:51 PM UTC 2026 ===
+/home2/home/chakilam_sai/acadss/dl/glasses-scratch/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Device: cpu | params: 11,177,538 | train 1600 | val 400 | bs_32
+Config: image_size=96 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=32 epochs=10 anneal=True ema=False
+Epoch   1/10 | train loss 0.5507 acc 0.7438 f1 0.7338 | val loss 1.1930 acc 0.5350 f1 0.1308 | ema acc nan | lr 1.00e-03 | 5.4s
+Epoch   2/10 | train loss 0.4050 acc 0.8700 f1 0.8668 | val loss 0.4531 acc 0.8875 f1 0.8732 | ema acc nan | lr 1.00e-03 | 5.4s

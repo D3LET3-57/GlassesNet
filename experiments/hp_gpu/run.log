@@ -1,0 +1,265 @@
+=== experiments/configs/hp_gpu/act_gelu.json Thu Oct 22 03:06:19 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | act_gelu
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2899 acc 0.9427 f1 0.9422 | val loss 0.2643 acc 0.9635 f1 0.9647 | ema acc nan | lr 1.00e-03 | 20.2s
+Epoch   2/20 | train loss 0.2398 acc 0.9783 f1 0.9783 | val loss 0.2556 acc 0.9686 f1 0.9677 | ema acc nan | lr 1.00e-03 | 9.1s
+Epoch   3/20 | train loss 0.2329 acc 0.9821 f1 0.9821 | val loss 0.3478 acc 0.9137 f1 0.9059 | ema acc nan | lr 9.92e-04 | 9.0s
+Epoch   4/20 | train loss 0.2238 acc 0.9864 f1 0.9864 | val loss 0.2541 acc 0.9680 f1 0.9670 | ema acc nan | lr 9.70e-04 | 9.1s
+Epoch   5/20 | train loss 0.2205 acc 0.9886 f1 0.9886 | val loss 0.2160 acc 0.9933 f1 0.9932 | ema acc nan | lr 9.34e-04 | 9.0s
+Epoch   6/20 | train loss 0.2168 acc 0.9903 f1 0.9904 | val loss 0.2091 acc 0.9955 f1 0.9955 | ema acc nan | lr 8.84e-04 | 9.1s
+Epoch   7/20 | train loss 0.2149 acc 0.9913 f1 0.9913 | val loss 0.2155 acc 0.9920 f1 0.9921 | ema acc nan | lr 8.23e-04 | 9.1s
+Epoch   8/20 | train loss 0.2130 acc 0.9927 f1 0.9928 | val loss 0.2173 acc 0.9904 f1 0.9905 | ema acc nan | lr 7.52e-04 | 8.8s
+Epoch   9/20 | train loss 0.2113 acc 0.9937 f1 0.9937 | val loss 0.2206 acc 0.9857 f1 0.9856 | ema acc nan | lr 6.74e-04 | 9.1s
+Epoch  10/20 | train loss 0.2094 acc 0.9941 f1 0.9941 | val loss 0.2032 acc 0.9976 f1 0.9976 | ema acc nan | lr 5.91e-04 | 9.3s
+Epoch  11/20 | train loss 0.2083 acc 0.9952 f1 0.9952 | val loss 0.2025 acc 0.9978 f1 0.9978 | ema acc nan | lr 5.05e-04 | 9.0s
+Epoch  12/20 | train loss 0.2068 acc 0.9958 f1 0.9958 | val loss 0.2023 acc 0.9980 f1 0.9980 | ema acc nan | lr 4.19e-04 | 9.2s
+Epoch  13/20 | train loss 0.2056 acc 0.9964 f1 0.9964 | val loss 0.2106 acc 0.9912 f1 0.9912 | ema acc nan | lr 3.36e-04 | 9.2s
+Epoch  14/20 | train loss 0.2044 acc 0.9970 f1 0.9970 | val loss 0.2047 acc 0.9973 f1 0.9974 | ema acc nan | lr 2.58e-04 | 8.9s
+Epoch  15/20 | train loss 0.2047 acc 0.9964 f1 0.9964 | val loss 0.2047 acc 0.9965 f1 0.9965 | ema acc nan | lr 1.87e-04 | 9.0s
+Epoch  16/20 | train loss 0.2043 acc 0.9970 f1 0.9970 | val loss 0.2015 acc 0.9984 f1 0.9984 | ema acc nan | lr 1.26e-04 | 9.0s
+Epoch  17/20 | train loss 0.2026 acc 0.9978 f1 0.9978 | val loss 0.2008 acc 0.9990 f1 0.9990 | ema acc nan | lr 7.63e-05 | 9.1s
+Epoch  18/20 | train loss 0.2023 acc 0.9981 f1 0.9981 | val loss 0.2004 acc 0.9992 f1 0.9992 | ema acc nan | lr 3.99e-05 | 9.1s
+Epoch  19/20 | train loss 0.2017 acc 0.9983 f1 0.9983 | val loss 0.2005 acc 0.9990 f1 0.9990 | ema acc nan | lr 1.75e-05 | 9.3s
+Epoch  20/20 | train loss 0.2016 acc 0.9984 f1 0.9984 | val loss 0.2006 acc 0.9990 f1 0.9990 | ema acc nan | lr 1.00e-05 | 9.0s
+Done. Best val acc 0.9992 at epoch 18 (raw)
+=== experiments/configs/hp_gpu/act_relu.json Thu Oct 22 03:09:46 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | act_relu
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2968 acc 0.9385 f1 0.9378 | val loss 0.2507 acc 0.9702 f1 0.9709 | ema acc nan | lr 1.00e-03 | 20.1s
+Epoch   2/20 | train loss 0.2457 acc 0.9745 f1 0.9744 | val loss 0.2642 acc 0.9676 f1 0.9666 | ema acc nan | lr 1.00e-03 | 8.9s
+Epoch   3/20 | train loss 0.2378 acc 0.9795 f1 0.9795 | val loss 0.2691 acc 0.9623 f1 0.9609 | ema acc nan | lr 9.92e-04 | 9.1s
+Epoch   4/20 | train loss 0.2297 acc 0.9835 f1 0.9835 | val loss 0.2202 acc 0.9890 f1 0.9889 | ema acc nan | lr 9.70e-04 | 9.1s
+Epoch   5/20 | train loss 0.2219 acc 0.9882 f1 0.9882 | val loss 0.3067 acc 0.9404 f1 0.9370 | ema acc nan | lr 9.34e-04 | 8.9s
+Epoch   6/20 | train loss 0.2198 acc 0.9887 f1 0.9887 | val loss 0.2580 acc 0.9641 f1 0.9629 | ema acc nan | lr 8.84e-04 | 9.1s
+Epoch   7/20 | train loss 0.2161 acc 0.9908 f1 0.9908 | val loss 0.2194 acc 0.9925 f1 0.9925 | ema acc nan | lr 8.23e-04 | 9.1s
+Epoch   8/20 | train loss 0.2155 acc 0.9909 f1 0.9909 | val loss 0.2089 acc 0.9949 f1 0.9949 | ema acc nan | lr 7.52e-04 | 9.1s
+Epoch   9/20 | train loss 0.2125 acc 0.9932 f1 0.9932 | val loss 0.2504 acc 0.9669 f1 0.9659 | ema acc nan | lr 6.74e-04 | 9.1s
+Epoch  10/20 | train loss 0.2106 acc 0.9940 f1 0.9940 | val loss 0.2051 acc 0.9963 f1 0.9963 | ema acc nan | lr 5.91e-04 | 9.0s
+Epoch  11/20 | train loss 0.2088 acc 0.9950 f1 0.9951 | val loss 0.2020 acc 0.9986 f1 0.9986 | ema acc nan | lr 5.05e-04 | 8.9s
+Epoch  12/20 | train loss 0.2088 acc 0.9948 f1 0.9949 | val loss 0.2033 acc 0.9973 f1 0.9973 | ema acc nan | lr 4.19e-04 | 8.8s
+Epoch  13/20 | train loss 0.2065 acc 0.9959 f1 0.9959 | val loss 0.2102 acc 0.9935 f1 0.9934 | ema acc nan | lr 3.36e-04 | 8.8s
+Epoch  14/20 | train loss 0.2044 acc 0.9969 f1 0.9969 | val loss 0.2021 acc 0.9984 f1 0.9984 | ema acc nan | lr 2.58e-04 | 9.0s
+Epoch  15/20 | train loss 0.2047 acc 0.9966 f1 0.9966 | val loss 0.2026 acc 0.9978 f1 0.9978 | ema acc nan | lr 1.87e-04 | 9.1s
+Epoch  16/20 | train loss 0.2042 acc 0.9973 f1 0.9973 | val loss 0.2015 acc 0.9988 f1 0.9988 | ema acc nan | lr 1.26e-04 | 9.1s
+Epoch  17/20 | train loss 0.2032 acc 0.9974 f1 0.9974 | val loss 0.2012 acc 0.9984 f1 0.9984 | ema acc nan | lr 7.63e-05 | 9.1s
+Epoch  18/20 | train loss 0.2029 acc 0.9980 f1 0.9980 | val loss 0.2018 acc 0.9982 f1 0.9982 | ema acc nan | lr 3.99e-05 | 9.1s
+Epoch  19/20 | train loss 0.2025 acc 0.9979 f1 0.9979 | val loss 0.2010 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.75e-05 | 9.2s
+Epoch  20/20 | train loss 0.2018 acc 0.9984 f1 0.9984 | val loss 0.2014 acc 0.9984 f1 0.9984 | ema acc nan | lr 1.00e-05 | 9.2s
+Done. Best val acc 0.9988 at epoch 16 (raw)
+=== experiments/configs/hp_gpu/act_silu.json Thu Oct 22 03:13:12 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | act_silu
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2921 acc 0.9398 f1 0.9390 | val loss 0.2576 acc 0.9637 f1 0.9648 | ema acc nan | lr 1.00e-03 | 20.0s
+Epoch   2/20 | train loss 0.2416 acc 0.9772 f1 0.9772 | val loss 0.2965 acc 0.9441 f1 0.9410 | ema acc nan | lr 1.00e-03 | 8.9s
+Epoch   3/20 | train loss 0.2329 acc 0.9815 f1 0.9815 | val loss 0.2172 acc 0.9910 f1 0.9910 | ema acc nan | lr 9.92e-04 | 9.0s
+Epoch   4/20 | train loss 0.2262 acc 0.9850 f1 0.9850 | val loss 0.2297 acc 0.9818 f1 0.9816 | ema acc nan | lr 9.70e-04 | 9.0s
+Epoch   5/20 | train loss 0.2198 acc 0.9896 f1 0.9896 | val loss 0.2216 acc 0.9937 f1 0.9937 | ema acc nan | lr 9.34e-04 | 8.8s
+Epoch   6/20 | train loss 0.2197 acc 0.9893 f1 0.9893 | val loss 0.2200 acc 0.9878 f1 0.9876 | ema acc nan | lr 8.84e-04 | 8.8s
+Epoch   7/20 | train loss 0.2139 acc 0.9922 f1 0.9922 | val loss 0.2054 acc 0.9980 f1 0.9980 | ema acc nan | lr 8.23e-04 | 9.2s
+Epoch   8/20 | train loss 0.2135 acc 0.9920 f1 0.9920 | val loss 0.2132 acc 0.9922 f1 0.9922 | ema acc nan | lr 7.52e-04 | 9.0s
+Epoch   9/20 | train loss 0.2106 acc 0.9941 f1 0.9941 | val loss 0.2283 acc 0.9835 f1 0.9832 | ema acc nan | lr 6.74e-04 | 9.0s
+Epoch  10/20 | train loss 0.2098 acc 0.9941 f1 0.9941 | val loss 0.2055 acc 0.9955 f1 0.9955 | ema acc nan | lr 5.91e-04 | 9.2s
+Epoch  11/20 | train loss 0.2083 acc 0.9950 f1 0.9951 | val loss 0.2039 acc 0.9982 f1 0.9982 | ema acc nan | lr 5.05e-04 | 8.8s
+Epoch  12/20 | train loss 0.2079 acc 0.9954 f1 0.9954 | val loss 0.2040 acc 0.9965 f1 0.9965 | ema acc nan | lr 4.19e-04 | 9.1s
+Epoch  13/20 | train loss 0.2066 acc 0.9959 f1 0.9959 | val loss 0.2093 acc 0.9933 f1 0.9932 | ema acc nan | lr 3.36e-04 | 8.9s
+Epoch  14/20 | train loss 0.2045 acc 0.9971 f1 0.9971 | val loss 0.2033 acc 0.9971 f1 0.9971 | ema acc nan | lr 2.58e-04 | 8.8s
+Epoch  15/20 | train loss 0.2045 acc 0.9968 f1 0.9968 | val loss 0.2024 acc 0.9978 f1 0.9978 | ema acc nan | lr 1.87e-04 | 9.1s
+Epoch  16/20 | train loss 0.2045 acc 0.9968 f1 0.9968 | val loss 0.2012 acc 0.9984 f1 0.9984 | ema acc nan | lr 1.26e-04 | 9.0s
+Epoch  17/20 | train loss 0.2030 acc 0.9979 f1 0.9979 | val loss 0.2008 acc 0.9986 f1 0.9986 | ema acc nan | lr 7.63e-05 | 9.0s
+Epoch  18/20 | train loss 0.2028 acc 0.9978 f1 0.9978 | val loss 0.2008 acc 0.9984 f1 0.9984 | ema acc nan | lr 3.99e-05 | 8.8s
+Epoch  19/20 | train loss 0.2022 acc 0.9979 f1 0.9979 | val loss 0.2003 acc 0.9988 f1 0.9988 | ema acc nan | lr 1.75e-05 | 9.0s
+Epoch  20/20 | train loss 0.2016 acc 0.9983 f1 0.9983 | val loss 0.2005 acc 0.9984 f1 0.9984 | ema acc nan | lr 1.00e-05 | 9.0s
+Done. Best val acc 0.9988 at epoch 19 (raw)
+=== experiments/configs/hp_gpu/bs_128.json Thu Oct 22 03:16:37 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | bs_128
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2940 acc 0.9382 f1 0.9375 | val loss 0.2224 acc 0.9886 f1 0.9887 | ema acc nan | lr 1.00e-03 | 20.0s
+Epoch   2/20 | train loss 0.2481 acc 0.9734 f1 0.9734 | val loss 0.2354 acc 0.9794 f1 0.9791 | ema acc nan | lr 1.00e-03 | 9.1s
+Epoch   3/20 | train loss 0.2361 acc 0.9793 f1 0.9792 | val loss 0.2293 acc 0.9841 f1 0.9839 | ema acc nan | lr 9.92e-04 | 9.3s
+Epoch   4/20 | train loss 0.2260 acc 0.9861 f1 0.9860 | val loss 0.2065 acc 0.9953 f1 0.9953 | ema acc nan | lr 9.70e-04 | 9.0s
+Epoch   5/20 | train loss 0.2203 acc 0.9888 f1 0.9888 | val loss 0.2120 acc 0.9976 f1 0.9976 | ema acc nan | lr 9.34e-04 | 9.2s
+Epoch   6/20 | train loss 0.2209 acc 0.9882 f1 0.9881 | val loss 0.2083 acc 0.9953 f1 0.9953 | ema acc nan | lr 8.84e-04 | 8.9s
+Epoch   7/20 | train loss 0.2153 acc 0.9908 f1 0.9908 | val loss 0.2081 acc 0.9967 f1 0.9967 | ema acc nan | lr 8.23e-04 | 9.1s
+Epoch   8/20 | train loss 0.2136 acc 0.9926 f1 0.9926 | val loss 0.2358 acc 0.9800 f1 0.9804 | ema acc nan | lr 7.52e-04 | 8.9s
+Epoch   9/20 | train loss 0.2120 acc 0.9930 f1 0.9930 | val loss 0.2489 acc 0.9704 f1 0.9696 | ema acc nan | lr 6.74e-04 | 9.0s
+Epoch  10/20 | train loss 0.2099 acc 0.9941 f1 0.9941 | val loss 0.2061 acc 0.9963 f1 0.9963 | ema acc nan | lr 5.91e-04 | 9.3s
+Epoch  11/20 | train loss 0.2088 acc 0.9950 f1 0.9950 | val loss 0.2029 acc 0.9978 f1 0.9978 | ema acc nan | lr 5.05e-04 | 9.3s
+Epoch  12/20 | train loss 0.2077 acc 0.9953 f1 0.9953 | val loss 0.2047 acc 0.9965 f1 0.9965 | ema acc nan | lr 4.19e-04 | 9.1s
+Epoch  13/20 | train loss 0.2063 acc 0.9961 f1 0.9961 | val loss 0.2033 acc 0.9978 f1 0.9978 | ema acc nan | lr 3.36e-04 | 9.2s
+Epoch  14/20 | train loss 0.2043 acc 0.9970 f1 0.9970 | val loss 0.2011 acc 0.9984 f1 0.9984 | ema acc nan | lr 2.58e-04 | 9.0s
+Epoch  15/20 | train loss 0.2048 acc 0.9968 f1 0.9968 | val loss 0.2017 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.87e-04 | 9.0s
+Epoch  16/20 | train loss 0.2039 acc 0.9971 f1 0.9971 | val loss 0.2011 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.26e-04 | 9.1s
+Epoch  17/20 | train loss 0.2034 acc 0.9975 f1 0.9975 | val loss 0.2005 acc 0.9988 f1 0.9988 | ema acc nan | lr 7.63e-05 | 9.1s
+Epoch  18/20 | train loss 0.2030 acc 0.9979 f1 0.9979 | val loss 0.2002 acc 0.9992 f1 0.9992 | ema acc nan | lr 3.99e-05 | 9.0s
+Epoch  19/20 | train loss 0.2017 acc 0.9986 f1 0.9986 | val loss 0.2003 acc 0.9990 f1 0.9990 | ema acc nan | lr 1.75e-05 | 9.0s
+Epoch  20/20 | train loss 0.2022 acc 0.9980 f1 0.9980 | val loss 0.2007 acc 0.9988 f1 0.9988 | ema acc nan | lr 1.00e-05 | 9.1s
+Done. Best val acc 0.9992 at epoch 18 (raw)
+=== experiments/configs/hp_gpu/bs_256.json Thu Oct 22 03:20:04 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | bs_256
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=256 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.3170 acc 0.9194 f1 0.9179 | val loss 0.3029 acc 0.9351 f1 0.9308 | ema acc nan | lr 1.00e-03 | 20.5s
+Epoch   2/20 | train loss 0.2395 acc 0.9758 f1 0.9757 | val loss 0.2334 acc 0.9818 f1 0.9820 | ema acc nan | lr 1.00e-03 | 9.6s
+Epoch   3/20 | train loss 0.2291 acc 0.9826 f1 0.9826 | val loss 0.3267 acc 0.9329 f1 0.9283 | ema acc nan | lr 9.92e-04 | 9.7s
+Epoch   4/20 | train loss 0.2223 acc 0.9865 f1 0.9865 | val loss 0.2138 acc 0.9929 f1 0.9929 | ema acc nan | lr 9.70e-04 | 9.6s
+Epoch   5/20 | train loss 0.2219 acc 0.9881 f1 0.9881 | val loss 0.2573 acc 0.9676 f1 0.9666 | ema acc nan | lr 9.34e-04 | 9.5s
+Epoch   6/20 | train loss 0.2193 acc 0.9887 f1 0.9887 | val loss 0.2313 acc 0.9835 f1 0.9833 | ema acc nan | lr 8.84e-04 | 9.5s
+Epoch   7/20 | train loss 0.2153 acc 0.9905 f1 0.9906 | val loss 0.2083 acc 0.9943 f1 0.9943 | ema acc nan | lr 8.23e-04 | 9.6s
+Epoch   8/20 | train loss 0.2119 acc 0.9917 f1 0.9917 | val loss 0.2200 acc 0.9882 f1 0.9882 | ema acc nan | lr 7.52e-04 | 9.5s
+Epoch   9/20 | train loss 0.2111 acc 0.9925 f1 0.9926 | val loss 0.2043 acc 0.9963 f1 0.9963 | ema acc nan | lr 6.74e-04 | 9.6s
+Epoch  10/20 | train loss 0.2107 acc 0.9928 f1 0.9928 | val loss 0.2202 acc 0.9863 f1 0.9862 | ema acc nan | lr 5.91e-04 | 9.4s
+Epoch  11/20 | train loss 0.2092 acc 0.9937 f1 0.9937 | val loss 0.2040 acc 0.9967 f1 0.9967 | ema acc nan | lr 5.05e-04 | 9.5s
+Epoch  12/20 | train loss 0.2061 acc 0.9952 f1 0.9952 | val loss 0.2015 acc 0.9990 f1 0.9990 | ema acc nan | lr 4.19e-04 | 9.6s
+Epoch  13/20 | train loss 0.2050 acc 0.9957 f1 0.9957 | val loss 0.2069 acc 0.9953 f1 0.9953 | ema acc nan | lr 3.36e-04 | 9.4s
+Epoch  14/20 | train loss 0.2036 acc 0.9968 f1 0.9968 | val loss 0.2015 acc 0.9982 f1 0.9982 | ema acc nan | lr 2.58e-04 | 9.5s
+Epoch  15/20 | train loss 0.2030 acc 0.9967 f1 0.9967 | val loss 0.2033 acc 0.9973 f1 0.9973 | ema acc nan | lr 1.87e-04 | 9.5s
+Epoch  16/20 | train loss 0.2039 acc 0.9964 f1 0.9964 | val loss 0.2025 acc 0.9973 f1 0.9973 | ema acc nan | lr 1.26e-04 | 9.5s
+Epoch  17/20 | train loss 0.2033 acc 0.9970 f1 0.9970 | val loss 0.2019 acc 0.9980 f1 0.9980 | ema acc nan | lr 7.63e-05 | 9.7s
+Epoch  18/20 | train loss 0.2018 acc 0.9976 f1 0.9976 | val loss 0.2005 acc 0.9988 f1 0.9988 | ema acc nan | lr 3.99e-05 | 9.2s
+Epoch  19/20 | train loss 0.2012 acc 0.9980 f1 0.9980 | val loss 0.2006 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.75e-05 | 9.4s
+Epoch  20/20 | train loss 0.2018 acc 0.9975 f1 0.9975 | val loss 0.2003 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.00e-05 | 9.4s
+Done. Best val acc 0.9990 at epoch 12 (raw)
+=== experiments/configs/hp_gpu/bs_32.json Thu Oct 22 03:23:39 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | bs_32
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=32 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2927 acc 0.9439 f1 0.9435 | val loss 0.2342 acc 0.9810 f1 0.9808 | ema acc nan | lr 1.00e-03 | 22.1s
+Epoch   2/20 | train loss 0.2573 acc 0.9693 f1 0.9692 | val loss 0.4165 acc 0.8829 f1 0.8679 | ema acc nan | lr 1.00e-03 | 11.9s
+Epoch   3/20 | train loss 0.2372 acc 0.9800 f1 0.9800 | val loss 0.2115 acc 0.9951 f1 0.9951 | ema acc nan | lr 9.92e-04 | 11.9s
+Epoch   4/20 | train loss 0.2270 acc 0.9854 f1 0.9854 | val loss 0.2149 acc 0.9929 f1 0.9928 | ema acc nan | lr 9.70e-04 | 12.0s
+Epoch   5/20 | train loss 0.2210 acc 0.9887 f1 0.9887 | val loss 0.2183 acc 0.9892 f1 0.9891 | ema acc nan | lr 9.34e-04 | 12.0s
+Epoch   6/20 | train loss 0.2185 acc 0.9902 f1 0.9903 | val loss 0.2128 acc 0.9943 f1 0.9943 | ema acc nan | lr 8.84e-04 | 12.4s
+Epoch   7/20 | train loss 0.2156 acc 0.9906 f1 0.9906 | val loss 0.2106 acc 0.9937 f1 0.9937 | ema acc nan | lr 8.23e-04 | 11.6s
+Epoch   8/20 | train loss 0.2148 acc 0.9912 f1 0.9912 | val loss 0.2041 acc 0.9973 f1 0.9973 | ema acc nan | lr 7.52e-04 | 12.3s
+Epoch   9/20 | train loss 0.2113 acc 0.9936 f1 0.9936 | val loss 0.2128 acc 0.9927 f1 0.9926 | ema acc nan | lr 6.74e-04 | 12.3s
+Epoch  10/20 | train loss 0.2092 acc 0.9949 f1 0.9949 | val loss 0.2030 acc 0.9980 f1 0.9980 | ema acc nan | lr 5.91e-04 | 12.2s
+Epoch  11/20 | train loss 0.2100 acc 0.9935 f1 0.9935 | val loss 0.2128 acc 0.9929 f1 0.9928 | ema acc nan | lr 5.05e-04 | 12.5s
+Epoch  12/20 | train loss 0.2073 acc 0.9954 f1 0.9954 | val loss 0.2031 acc 0.9973 f1 0.9974 | ema acc nan | lr 4.19e-04 | 12.2s
+Epoch  13/20 | train loss 0.2072 acc 0.9958 f1 0.9958 | val loss 0.2033 acc 0.9973 f1 0.9974 | ema acc nan | lr 3.36e-04 | 12.2s
+Epoch  14/20 | train loss 0.2061 acc 0.9958 f1 0.9958 | val loss 0.2015 acc 0.9984 f1 0.9984 | ema acc nan | lr 2.58e-04 | 12.4s
+Epoch  15/20 | train loss 0.2041 acc 0.9971 f1 0.9971 | val loss 0.2019 acc 0.9980 f1 0.9980 | ema acc nan | lr 1.87e-04 | 12.1s
+Epoch  16/20 | train loss 0.2030 acc 0.9978 f1 0.9978 | val loss 0.2028 acc 0.9978 f1 0.9978 | ema acc nan | lr 1.26e-04 | 12.1s
+Epoch  17/20 | train loss 0.2030 acc 0.9978 f1 0.9978 | val loss 0.2005 acc 0.9990 f1 0.9990 | ema acc nan | lr 7.63e-05 | 12.5s
+Epoch  18/20 | train loss 0.2029 acc 0.9977 f1 0.9977 | val loss 0.2007 acc 0.9986 f1 0.9986 | ema acc nan | lr 3.99e-05 | 12.2s
+Epoch  19/20 | train loss 0.2021 acc 0.9980 f1 0.9980 | val loss 0.2006 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.75e-05 | 11.9s
+Epoch  20/20 | train loss 0.2020 acc 0.9982 f1 0.9982 | val loss 0.2007 acc 0.9984 f1 0.9984 | ema acc nan | lr 1.00e-05 | 11.9s
+Done. Best val acc 0.9990 at epoch 17 (raw)
+=== experiments/configs/hp_gpu/bs_64.json Thu Oct 22 03:28:05 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | bs_64
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=64 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2821 acc 0.9505 f1 0.9501 | val loss 0.2198 acc 0.9882 f1 0.9881 | ema acc nan | lr 1.00e-03 | 18.6s
+Epoch   2/20 | train loss 0.2531 acc 0.9717 f1 0.9716 | val loss 0.2622 acc 0.9639 f1 0.9649 | ema acc nan | lr 1.00e-03 | 8.9s
+Epoch   3/20 | train loss 0.2393 acc 0.9790 f1 0.9790 | val loss 0.2304 acc 0.9841 f1 0.9839 | ema acc nan | lr 9.92e-04 | 8.8s
+Epoch   4/20 | train loss 0.2290 acc 0.9840 f1 0.9840 | val loss 0.2089 acc 0.9951 f1 0.9951 | ema acc nan | lr 9.70e-04 | 8.7s
+Epoch   5/20 | train loss 0.2238 acc 0.9869 f1 0.9869 | val loss 0.2134 acc 0.9927 f1 0.9927 | ema acc nan | lr 9.34e-04 | 9.1s
+Epoch   6/20 | train loss 0.2205 acc 0.9887 f1 0.9887 | val loss 0.2755 acc 0.9555 f1 0.9536 | ema acc nan | lr 8.84e-04 | 8.9s
+Epoch   7/20 | train loss 0.2183 acc 0.9893 f1 0.9893 | val loss 0.2116 acc 0.9927 f1 0.9927 | ema acc nan | lr 8.23e-04 | 8.9s
+Epoch   8/20 | train loss 0.2145 acc 0.9916 f1 0.9916 | val loss 0.2134 acc 0.9914 f1 0.9915 | ema acc nan | lr 7.52e-04 | 8.8s
+Epoch   9/20 | train loss 0.2119 acc 0.9930 f1 0.9930 | val loss 0.2113 acc 0.9933 f1 0.9932 | ema acc nan | lr 6.74e-04 | 8.9s
+Epoch  10/20 | train loss 0.2105 acc 0.9941 f1 0.9941 | val loss 0.2044 acc 0.9969 f1 0.9969 | ema acc nan | lr 5.91e-04 | 8.9s
+Epoch  11/20 | train loss 0.2091 acc 0.9940 f1 0.9940 | val loss 0.2044 acc 0.9969 f1 0.9969 | ema acc nan | lr 5.05e-04 | 8.9s
+Epoch  12/20 | train loss 0.2089 acc 0.9946 f1 0.9946 | val loss 0.2040 acc 0.9961 f1 0.9961 | ema acc nan | lr 4.19e-04 | 9.0s
+Epoch  13/20 | train loss 0.2055 acc 0.9966 f1 0.9966 | val loss 0.2030 acc 0.9973 f1 0.9973 | ema acc nan | lr 3.36e-04 | 9.1s
+Epoch  14/20 | train loss 0.2065 acc 0.9958 f1 0.9958 | val loss 0.2012 acc 0.9988 f1 0.9988 | ema acc nan | lr 2.58e-04 | 8.9s
+Epoch  15/20 | train loss 0.2051 acc 0.9965 f1 0.9965 | val loss 0.2009 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.87e-04 | 8.9s
+Epoch  16/20 | train loss 0.2046 acc 0.9968 f1 0.9968 | val loss 0.2011 acc 0.9984 f1 0.9984 | ema acc nan | lr 1.26e-04 | 8.8s
+Epoch  17/20 | train loss 0.2034 acc 0.9974 f1 0.9974 | val loss 0.2009 acc 0.9988 f1 0.9988 | ema acc nan | lr 7.63e-05 | 8.8s
+Epoch  18/20 | train loss 0.2033 acc 0.9974 f1 0.9974 | val loss 0.2005 acc 0.9988 f1 0.9988 | ema acc nan | lr 3.99e-05 | 8.9s
+Epoch  19/20 | train loss 0.2025 acc 0.9979 f1 0.9979 | val loss 0.2003 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.75e-05 | 8.8s
+Epoch  20/20 | train loss 0.2019 acc 0.9983 f1 0.9983 | val loss 0.2003 acc 0.9988 f1 0.9988 | ema acc nan | lr 1.00e-05 | 8.8s
+Done. Best val acc 0.9988 at epoch 14 (raw)
+=== experiments/configs/hp_gpu/lr_0.0001.json Thu Oct 22 03:31:27 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | lr_0.0001
+Config: image_size=128 opt=adamw lr=0.0001 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.4299 acc 0.8384 f1 0.8328 | val loss 0.2446 acc 0.9808 f1 0.9810 | ema acc nan | lr 1.00e-04 | 19.9s
+Epoch   2/20 | train loss 0.2540 acc 0.9686 f1 0.9685 | val loss 0.2204 acc 0.9904 f1 0.9904 | ema acc nan | lr 1.00e-04 | 9.0s
+Epoch   3/20 | train loss 0.2348 acc 0.9804 f1 0.9804 | val loss 0.2195 acc 0.9888 f1 0.9887 | ema acc nan | lr 9.92e-05 | 9.0s
+Epoch   4/20 | train loss 0.2263 acc 0.9849 f1 0.9849 | val loss 0.2112 acc 0.9935 f1 0.9935 | ema acc nan | lr 9.70e-05 | 9.2s
+Epoch   5/20 | train loss 0.2219 acc 0.9875 f1 0.9875 | val loss 0.2095 acc 0.9933 f1 0.9933 | ema acc nan | lr 9.34e-05 | 9.1s
+Epoch   6/20 | train loss 0.2211 acc 0.9878 f1 0.9878 | val loss 0.2090 acc 0.9943 f1 0.9943 | ema acc nan | lr 8.84e-05 | 9.1s
+Epoch   7/20 | train loss 0.2169 acc 0.9901 f1 0.9901 | val loss 0.2088 acc 0.9953 f1 0.9953 | ema acc nan | lr 8.23e-05 | 9.0s
+Epoch   8/20 | train loss 0.2153 acc 0.9905 f1 0.9904 | val loss 0.2075 acc 0.9957 f1 0.9957 | ema acc nan | lr 7.52e-05 | 9.3s
+Epoch   9/20 | train loss 0.2139 acc 0.9923 f1 0.9923 | val loss 0.2109 acc 0.9935 f1 0.9934 | ema acc nan | lr 6.74e-05 | 9.0s
+Epoch  10/20 | train loss 0.2134 acc 0.9922 f1 0.9922 | val loss 0.2055 acc 0.9967 f1 0.9967 | ema acc nan | lr 5.91e-05 | 9.1s
+Epoch  11/20 | train loss 0.2116 acc 0.9935 f1 0.9935 | val loss 0.2081 acc 0.9951 f1 0.9951 | ema acc nan | lr 5.05e-05 | 8.9s
+Epoch  12/20 | train loss 0.2099 acc 0.9940 f1 0.9940 | val loss 0.2031 acc 0.9980 f1 0.9980 | ema acc nan | lr 4.19e-05 | 9.1s
+Epoch  13/20 | train loss 0.2095 acc 0.9943 f1 0.9943 | val loss 0.2066 acc 0.9959 f1 0.9959 | ema acc nan | lr 3.36e-05 | 8.9s
+Epoch  14/20 | train loss 0.2091 acc 0.9948 f1 0.9949 | val loss 0.2035 acc 0.9971 f1 0.9971 | ema acc nan | lr 2.58e-05 | 9.2s
+Epoch  15/20 | train loss 0.2070 acc 0.9952 f1 0.9952 | val loss 0.2030 acc 0.9978 f1 0.9978 | ema acc nan | lr 1.87e-05 | 9.3s
+Epoch  16/20 | train loss 0.2081 acc 0.9950 f1 0.9950 | val loss 0.2029 acc 0.9973 f1 0.9974 | ema acc nan | lr 1.26e-05 | 9.4s
+Epoch  17/20 | train loss 0.2062 acc 0.9958 f1 0.9958 | val loss 0.2024 acc 0.9978 f1 0.9978 | ema acc nan | lr 7.63e-06 | 9.1s
+Epoch  18/20 | train loss 0.2060 acc 0.9963 f1 0.9963 | val loss 0.2023 acc 0.9980 f1 0.9980 | ema acc nan | lr 3.99e-06 | 9.1s
+Epoch  19/20 | train loss 0.2058 acc 0.9957 f1 0.9957 | val loss 0.2019 acc 0.9980 f1 0.9980 | ema acc nan | lr 1.75e-06 | 8.9s
+Epoch  20/20 | train loss 0.2050 acc 0.9967 f1 0.9967 | val loss 0.2019 acc 0.9982 f1 0.9982 | ema acc nan | lr 1.00e-06 | 9.0s
+Done. Best val acc 0.9982 at epoch 20 (raw)
+=== experiments/configs/hp_gpu/lr_0.0003.json Thu Oct 22 03:34:55 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | lr_0.0003
+Config: image_size=128 opt=adamw lr=0.0003 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.3312 acc 0.9120 f1 0.9105 | val loss 0.2188 acc 0.9900 f1 0.9900 | ema acc nan | lr 3.00e-04 | 20.0s
+Epoch   2/20 | train loss 0.2416 acc 0.9765 f1 0.9764 | val loss 0.2156 acc 0.9912 f1 0.9912 | ema acc nan | lr 3.00e-04 | 9.3s
+Epoch   3/20 | train loss 0.2336 acc 0.9807 f1 0.9807 | val loss 0.2147 acc 0.9925 f1 0.9925 | ema acc nan | lr 2.98e-04 | 9.1s
+Epoch   4/20 | train loss 0.2267 acc 0.9847 f1 0.9847 | val loss 0.2929 acc 0.9480 f1 0.9453 | ema acc nan | lr 2.91e-04 | 9.2s
+Epoch   5/20 | train loss 0.2226 acc 0.9870 f1 0.9870 | val loss 0.2105 acc 0.9937 f1 0.9937 | ema acc nan | lr 2.80e-04 | 8.8s
+Epoch   6/20 | train loss 0.2185 acc 0.9894 f1 0.9894 | val loss 0.2106 acc 0.9933 f1 0.9932 | ema acc nan | lr 2.65e-04 | 9.1s
+Epoch   7/20 | train loss 0.2154 acc 0.9911 f1 0.9911 | val loss 0.2049 acc 0.9973 f1 0.9974 | ema acc nan | lr 2.47e-04 | 9.1s
+Epoch   8/20 | train loss 0.2119 acc 0.9931 f1 0.9931 | val loss 0.2038 acc 0.9973 f1 0.9974 | ema acc nan | lr 2.26e-04 | 8.9s
+Epoch   9/20 | train loss 0.2105 acc 0.9941 f1 0.9941 | val loss 0.2257 acc 0.9835 f1 0.9832 | ema acc nan | lr 2.02e-04 | 9.0s
+Epoch  10/20 | train loss 0.2098 acc 0.9943 f1 0.9943 | val loss 0.2027 acc 0.9976 f1 0.9976 | ema acc nan | lr 1.77e-04 | 8.9s
+Epoch  11/20 | train loss 0.2089 acc 0.9945 f1 0.9945 | val loss 0.2073 acc 0.9945 f1 0.9945 | ema acc nan | lr 1.51e-04 | 9.1s
+Epoch  12/20 | train loss 0.2079 acc 0.9953 f1 0.9953 | val loss 0.2012 acc 0.9992 f1 0.9992 | ema acc nan | lr 1.26e-04 | 9.0s
+Epoch  13/20 | train loss 0.2077 acc 0.9949 f1 0.9949 | val loss 0.2022 acc 0.9978 f1 0.9978 | ema acc nan | lr 1.01e-04 | 8.9s
+Epoch  14/20 | train loss 0.2049 acc 0.9967 f1 0.9967 | val loss 0.2024 acc 0.9984 f1 0.9984 | ema acc nan | lr 7.73e-05 | 9.0s
+Epoch  15/20 | train loss 0.2045 acc 0.9965 f1 0.9965 | val loss 0.2020 acc 0.9988 f1 0.9988 | ema acc nan | lr 5.60e-05 | 9.0s
+Epoch  16/20 | train loss 0.2049 acc 0.9966 f1 0.9966 | val loss 0.2011 acc 0.9988 f1 0.9988 | ema acc nan | lr 3.77e-05 | 9.0s
+Epoch  17/20 | train loss 0.2035 acc 0.9974 f1 0.9974 | val loss 0.2009 acc 0.9984 f1 0.9984 | ema acc nan | lr 2.29e-05 | 9.3s
+Epoch  18/20 | train loss 0.2031 acc 0.9977 f1 0.9977 | val loss 0.2008 acc 0.9986 f1 0.9986 | ema acc nan | lr 1.20e-05 | 9.3s
+Epoch  19/20 | train loss 0.2024 acc 0.9983 f1 0.9983 | val loss 0.2004 acc 0.9988 f1 0.9988 | ema acc nan | lr 5.26e-06 | 9.0s
+Epoch  20/20 | train loss 0.2020 acc 0.9981 f1 0.9981 | val loss 0.2004 acc 0.9990 f1 0.9990 | ema acc nan | lr 3.00e-06 | 9.2s
+Done. Best val acc 0.9992 at epoch 12 (raw)
+=== experiments/configs/hp_gpu/lr_0.001.json Thu Oct 22 03:38:21 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | lr_0.001
+Config: image_size=128 opt=adamw lr=0.001 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.2912 acc 0.9422 f1 0.9416 | val loss 0.2300 acc 0.9837 f1 0.9839 | ema acc nan | lr 1.00e-03 | 20.0s
+Epoch   2/20 | train loss 0.2453 acc 0.9744 f1 0.9744 | val loss 0.6838 acc 0.7258 f1 0.6240 | ema acc nan | lr 1.00e-03 | 9.0s
+Epoch   3/20 | train loss 0.2374 acc 0.9784 f1 0.9784 | val loss 0.2758 acc 0.9582 f1 0.9565 | ema acc nan | lr 9.92e-04 | 9.0s
+Epoch   4/20 | train loss 0.2295 acc 0.9844 f1 0.9844 | val loss 0.2123 acc 0.9920 f1 0.9920 | ema acc nan | lr 9.70e-04 | 8.9s
+Epoch   5/20 | train loss 0.2239 acc 0.9870 f1 0.9870 | val loss 0.2162 acc 0.9959 f1 0.9959 | ema acc nan | lr 9.34e-04 | 8.8s
+Epoch   6/20 | train loss 0.2204 acc 0.9888 f1 0.9888 | val loss 0.2442 acc 0.9741 f1 0.9735 | ema acc nan | lr 8.84e-04 | 9.0s
+Epoch   7/20 | train loss 0.2157 acc 0.9908 f1 0.9908 | val loss 0.2081 acc 0.9955 f1 0.9955 | ema acc nan | lr 8.23e-04 | 8.9s
+Epoch   8/20 | train loss 0.2136 acc 0.9923 f1 0.9923 | val loss 0.2076 acc 0.9957 f1 0.9957 | ema acc nan | lr 7.52e-04 | 9.0s
+Epoch   9/20 | train loss 0.2126 acc 0.9930 f1 0.9930 | val loss 0.2162 acc 0.9896 f1 0.9895 | ema acc nan | lr 6.74e-04 | 8.9s
+Epoch  10/20 | train loss 0.2097 acc 0.9938 f1 0.9938 | val loss 0.2102 acc 0.9939 f1 0.9939 | ema acc nan | lr 5.91e-04 | 9.0s
+Epoch  11/20 | train loss 0.2086 acc 0.9950 f1 0.9951 | val loss 0.2040 acc 0.9971 f1 0.9972 | ema acc nan | lr 5.05e-04 | 8.9s
+Epoch  12/20 | train loss 0.2078 acc 0.9950 f1 0.9951 | val loss 0.2040 acc 0.9967 f1 0.9967 | ema acc nan | lr 4.19e-04 | 9.1s
+Epoch  13/20 | train loss 0.2066 acc 0.9956 f1 0.9956 | val loss 0.2116 acc 0.9912 f1 0.9912 | ema acc nan | lr 3.36e-04 | 9.1s
+Epoch  14/20 | train loss 0.2051 acc 0.9965 f1 0.9965 | val loss 0.2013 acc 0.9990 f1 0.9990 | ema acc nan | lr 2.58e-04 | 9.0s
+Epoch  15/20 | train loss 0.2058 acc 0.9958 f1 0.9958 | val loss 0.2010 acc 0.9990 f1 0.9990 | ema acc nan | lr 1.87e-04 | 9.0s
+Epoch  16/20 | train loss 0.2047 acc 0.9968 f1 0.9968 | val loss 0.2005 acc 0.9990 f1 0.9990 | ema acc nan | lr 1.26e-04 | 9.2s
+Epoch  17/20 | train loss 0.2032 acc 0.9978 f1 0.9978 | val loss 0.2003 acc 0.9992 f1 0.9992 | ema acc nan | lr 7.63e-05 | 8.9s
+Epoch  18/20 | train loss 0.2030 acc 0.9976 f1 0.9976 | val loss 0.2000 acc 0.9992 f1 0.9992 | ema acc nan | lr 3.99e-05 | 8.9s
+Epoch  19/20 | train loss 0.2019 acc 0.9981 f1 0.9981 | val loss 0.2004 acc 0.9988 f1 0.9988 | ema acc nan | lr 1.75e-05 | 9.0s
+Epoch  20/20 | train loss 0.2017 acc 0.9979 f1 0.9979 | val loss 0.2004 acc 0.9990 f1 0.9990 | ema acc nan | lr 1.00e-05 | 9.1s
+Done. Best val acc 0.9992 at epoch 17 (raw)
+=== experiments/configs/hp_gpu/lr_0.01.json Thu Oct 22 03:41:45 PM UTC 2026 ===
+Device: cuda | params: 11,177,538 | train 19598 | val 4901 | lr_0.01
+Config: image_size=128 opt=adamw lr=0.01 loss=cross_entropy ls=0.1 bs=128 epochs=20 anneal=True ema=False
+Epoch   1/20 | train loss 0.4707 acc 0.8014 f1 0.8017 | val loss 0.3884 acc 0.9121 f1 0.9039 | ema acc nan | lr 1.00e-02 | 20.2s
+Epoch   2/20 | train loss 0.2664 acc 0.9652 f1 0.9649 | val loss 0.2357 acc 0.9798 f1 0.9795 | ema acc nan | lr 1.00e-02 | 9.2s
+Epoch   3/20 | train loss 0.2413 acc 0.9786 f1 0.9786 | val loss 0.2352 acc 0.9820 f1 0.9823 | ema acc nan | lr 9.92e-03 | 9.0s
+Epoch   4/20 | train loss 0.2306 acc 0.9840 f1 0.9839 | val loss 0.2273 acc 0.9837 f1 0.9835 | ema acc nan | lr 9.70e-03 | 8.9s
+Epoch   5/20 | train loss 0.2260 acc 0.9857 f1 0.9856 | val loss 0.2441 acc 0.9794 f1 0.9798 | ema acc nan | lr 9.34e-03 | 9.4s
+Epoch   6/20 | train loss 0.2258 acc 0.9858 f1 0.9857 | val loss 0.2246 acc 0.9863 f1 0.9862 | ema acc nan | lr 8.84e-03 | 9.1s
+Epoch   7/20 | train loss 0.2205 acc 0.9890 f1 0.9890 | val loss 0.2362 acc 0.9794 f1 0.9797 | ema acc nan | lr 8.23e-03 | 9.2s
+Epoch   8/20 | train loss 0.2179 acc 0.9895 f1 0.9895 | val loss 0.2055 acc 0.9959 f1 0.9959 | ema acc nan | lr 7.52e-03 | 8.8s
+Epoch   9/20 | train loss 0.2149 acc 0.9908 f1 0.9908 | val loss 0.2527 acc 0.9700 f1 0.9692 | ema acc nan | lr 6.74e-03 | 9.2s
+Epoch  10/20 | train loss 0.2146 acc 0.9915 f1 0.9915 | val loss 0.2194 acc 0.9888 f1 0.9887 | ema acc nan | lr 5.91e-03 | 9.0s
+Epoch  11/20 | train loss 0.2115 acc 0.9930 f1 0.9930 | val loss 0.2711 acc 0.9600 f1 0.9616 | ema acc nan | lr 5.05e-03 | 9.0s
+Epoch  12/20 | train loss 0.2123 acc 0.9927 f1 0.9927 | val loss 0.2182 acc 0.9871 f1 0.9873 | ema acc nan | lr 4.19e-03 | 9.2s
+Epoch  13/20 | train loss 0.2103 acc 0.9943 f1 0.9943 | val loss 0.2122 acc 0.9939 f1 0.9939 | ema acc nan | lr 3.36e-03 | 9.0s
+Epoch  14/20 | train loss 0.2069 acc 0.9958 f1 0.9958 | val loss 0.2040 acc 0.9973 f1 0.9974 | ema acc nan | lr 2.58e-03 | 8.9s
+Epoch  15/20 | train loss 0.2065 acc 0.9956 f1 0.9956 | val loss 0.2048 acc 0.9965 f1 0.9965 | ema acc nan | lr 1.87e-03 | 9.1s
+Epoch  16/20 | train loss 0.2069 acc 0.9957 f1 0.9957 | val loss 0.2025 acc 0.9978 f1 0.9978 | ema acc nan | lr 1.26e-03 | 8.9s
+Epoch  17/20 | train loss 0.2050 acc 0.9964 f1 0.9964 | val loss 0.2032 acc 0.9971 f1 0.9971 | ema acc nan | lr 7.63e-04 | 9.0s
+Epoch  18/20 | train loss 0.2046 acc 0.9968 f1 0.9968 | val loss 0.2031 acc 0.9976 f1 0.9976 | ema acc nan | lr 3.99e-04 | 8.9s
+Epoch  19/20 | train loss 0.2038 acc 0.9970 f1 0.9970 | val loss 0.2022 acc 0.9980 f1 0.9980 | ema acc nan | lr 1.75e-04 | 9.3s
+Epoch  20/20 | train loss 0.2032 acc 0.9974 f1 0.9974 | val loss 0.2024 acc 0.9980 f1 0.9980 | ema acc nan | lr 1.00e-04 | 8.9s
+Done. Best val acc 0.9980 at epoch 19 (raw)
+DONE Thu Oct 22 03:45:11 PM UTC 2026

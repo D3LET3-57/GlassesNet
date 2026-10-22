@@ -1,0 +1,41 @@
+{
+  "run_name": "act_gelu",
+  "image_size": 96,
+  "num_epochs": 10,
+  "warmup_epochs": 2,
+  "batch_size": 128,
+  "num_workers": 8,
+  "num_folds": 5,
+  "val_fold": 0,
+  "num_hidden": 4,
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "blocks_per_stage": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "stem_width": 64,
+  "activation": "gelu",
+  "dropout": 0.2,
+  "loss": "cross_entropy",
+  "label_smoothing": 0.1,
+  "opt": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0005,
+  "anneal": true,
+  "amp": false,
+  "ema": false,
+  "ema_decay": 0.999,
+  "eval_ema": false,
+  "output_dir": "experiments/hp_cpu",
+  "limit_per_class": 1000,
+  "device": "cpu",
+  "seed": 42,
+  "split_seed": 42
+}
