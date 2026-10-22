@@ -23,6 +23,12 @@ verbose report.
 - Ensemble: 5 fold models x 4 deterministic TTA views
 - Submission: 2,984 glasses / 2,428 no-glasses; 5,378/5,412 unanimous
 
+## Checkpoints
+
+The five-fold best checkpoints (EMA weights) are available as a GitHub release:
+
+https://github.com/D3LET3-57/GlassesNet/releases/tag/v1.0-checkpoints
+
 ## Architecture
 
 ResNet-18-style network:
@@ -201,5 +207,5 @@ The final five-fold run took about two hours on one RTX 6000 Ada GPU.
 - pandas/PIL handle data I/O and matplotlib produces the figures.
 - Reproducibility: fold split seed 42, model seed 42 + fold index, deterministic
   TTA views.
-- Checkpoints (`*.pt`) are excluded from the release tarball; they are produced
-  by the training commands above.
+- Checkpoint files (`*.pt`) are excluded from the source tarball; the five best
+  fold checkpoints are in the GitHub release linked above.
