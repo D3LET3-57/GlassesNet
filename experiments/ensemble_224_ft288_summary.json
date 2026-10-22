@@ -1,0 +1,37 @@
+{
+  "checkpoints": [
+    "fold0_best.pt",
+    "fold1_best.pt",
+    "fold2_best.pt",
+    "fold3_best.pt",
+    "fold4_best.pt",
+    "fold0_best.pt",
+    "fold1_best.pt",
+    "fold2_best.pt",
+    "fold3_best.pt",
+    "fold4_best.pt"
+  ],
+  "tta_views": 4,
+  "image_sizes": [
+    224,
+    288
+  ],
+  "n_test": 5412,
+  "glasses": 2984,
+  "no_glasses": 2428,
+  "mean_confidence": 0.949714183807373,
+  "unanimous": 5369,
+  "model_disagreements": 43,
+  "val_accs": [
+    0.9997959600081616,
+    0.9995919200163232,
+    0.9995919200163232,
+    0.9995919200163232,
+    0.9989785495403473,
+    0.9997959600081616,
+    0.9995919200163232,
+    0.9995919200163232,
+    0.9997959600081616,
+    0.9987742594484168
+  ]
+}

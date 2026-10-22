@@ -1,0 +1,6 @@
+     run  fold  val_acc  best_epoch  ema   params  size  epochs   opt    lr  ls          sizes  blocks               file
+cv_final     0  0.99980          63 True 11177538   224      90 adamw 0.001 0.1 64-128-256-512 2-2-2-2 fold0_results.json
+cv_final     1  0.99959          90 True 11177538   224      90 adamw 0.001 0.1 64-128-256-512 2-2-2-2 fold1_results.json
+cv_final     2  0.99959          51 True 11177538   224      90 adamw 0.001 0.1 64-128-256-512 2-2-2-2 fold2_results.json
+cv_final     3  0.99959          27 True 11177538   224      90 adamw 0.001 0.1 64-128-256-512 2-2-2-2 fold3_results.json
+cv_final     4  0.99898          22 True 11177538   224      90 adamw 0.001 0.1 64-128-256-512 2-2-2-2 fold4_results.json

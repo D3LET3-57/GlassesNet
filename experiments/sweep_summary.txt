@@ -1,0 +1,8 @@
+                 run  fold  val_acc  best_epoch   ema   params  size  epochs      opt    lr  ls          sizes  blocks                                    file
+sweep_03_small_adamw     0  0.99980          29 False  2706850   160      30    adamw 0.001 0.1  32-64-128-256 1-1-2-2 sweep_03_small_adamw/fold0_results.json
+  sweep_01_r18_adamw     0  0.99959          25 False 11177538   160      30    adamw 0.001 0.1 64-128-256-512 2-2-2-2   sweep_01_r18_adamw/fold0_results.json
+    sweep_02_r18_sgd     0  0.99939          22 False 11177538   160      30 momentum 0.100 0.1 64-128-256-512 2-2-2-2     sweep_02_r18_sgd/fold0_results.json
+   sweep_06_r18_nols     0  0.99939          26 False 11177538   160      30    adamw 0.001 0.0 64-128-256-512 2-2-2-2    sweep_06_r18_nols/fold0_results.json
+  sweep_04_r34_adamw     0  0.99939          26 False 21285698   160      30    adamw 0.001 0.1 64-128-256-512 3-4-6-3   sweep_04_r34_adamw/fold0_results.json
+  sweep_05_r18_noaug     0  0.99674          13 False 11177538   160      30    adamw 0.001 0.1 64-128-256-512 2-2-2-2   sweep_05_r18_noaug/fold0_results.json
+           smoke_r18     0  0.50000           1 False 11177538    96       2    adamw 0.001 0.1 64-128-256-512 2-2-2-2            smoke_r18/fold0_results.json
